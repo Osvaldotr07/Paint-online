@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Paint online!</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="menu-container">
+		<p>Pincel</p> <label class="pincel-lavel" id="pincel-lavel">[ 3 ]</label>
+		<button class="btn btn-general less" id="less">-</button>
+		<button class="btn btn-general plus" id="plus">+</button>
+		<p>Color</p> <input type="color" type="color" value= "#000000" id="color-paleta" class="paleta">
+		<button class="btn btn-general delete" id="delete">Delete</button>
+		<button class="btn btn-general save" id="save">Save</button>
+		<button class="btn btn-general save" id="circulo">Circulo</button>
+		<button class="btn btn-general save" id="lines">Lineas</button>
+		
+	</div>
+	<div class="container-canvas">
+		<canvas class="canvas" id='canvas' width="1500px" height="700px"></canvas>
+	</div>
+	<script type="text/javascript" src="js/dibujo.js"></script>
+</body>
+</html>
